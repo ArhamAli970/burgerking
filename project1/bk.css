@@ -1,0 +1,580 @@
+*{ 
+    font-family: "BlockBertholdTextured";
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;  
+    
+}
+    header{  
+        background-color: rgb(250 244 235);
+        display: flex;
+        justify-content: space-between; 
+        height: 60px;
+        align-items: center; 
+        font-size: 20px;
+    }
+    .ship1 ul{ 
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center;
+        } 
+        .har{
+            padding-top:3px ;
+        }
+        .ship1 ul li img{ 
+            height: 70px;
+        }
+        .ship1 ul li input{ 
+         width: 120%; 
+         height: 20px; 
+        border: 1px solid rgb(250 244 235);
+        background-color: rgb(250 244 235);
+        
+        }         
+        .p34{ 
+            height: 30px;
+            
+            background-color: #f8743f;
+            color: #f8f6f3;
+            border: 2px solid #f8743f ; 
+            border-radius: 4px; 
+            padding-bottom:4px ;
+        }
+        .er:hover{  
+            transition: 2s;
+            opacity:0.8 ;
+            cursor: pointer;
+        }
+    .ship2 ul{
+        display: flex; 
+        align-items: center;
+    } 
+        
+     .ship2 ul li{   
+        padding: 4px 10px;
+     }
+   
+.ship2 ul li a{ 
+    text-decoration: none;
+    color: black;
+} 
+.ship2 ul li:hover{ 
+    transition: 2s;
+cursor: pointer;
+opacity: 0.8; 
+
+} 
+
+ 
+.bab{   
+   
+    position:absolute;
+    top:60px;
+    width: 100%;
+    background-color: white; 
+    opacity: 0.6;
+    padding: 10px 0px; 
+    
+}
+
+.bab1 ul{  
+   
+    font-size: 20px;
+    display:  flex; 
+    justify-content: space-evenly;
+    color:black
+ 
+} 
+
+.bab1 ul li a{ 
+    
+    text-decoration: none;
+}  
+.bab1 ul li a{  
+    font-family:monospace;
+    color: black;
+}
+.bab1 ul li :hover{ 
+    transition: 2s;
+opacity: 1; 
+cursor: pointer;
+}
+.babbu img{ 
+    height: 37px;
+}
+.babbu{ 
+    display: flex;
+}
+
+video{ 
+    width: 100%;
+}
+.mal{ 
+    padding: 80px;
+    background-color: #f8743f;
+}
+.ero{ 
+    width: 10%;
+} 
+
+
+.lexi ul { 
+    display: flex;
+
+}  
+
+.lexi ul li a img{ 
+width: 80%; 
+
+} 
+
+
+.kan{ 
+    background-color: #f8f6f3;
+    display: flex;
+    justify-content: center; 
+    padding: 30px;
+}
+.ship{ 
+    background-color: #f8743f;
+    border: 2px solid #f8743f ; 
+    border-radius: 6px; 
+    height: 70px; 
+    color: #f8f6f3;
+} 
+.ship:hover{  
+    transition: 2s;
+    background-color: #323231;
+    color: #f8f6f3;
+    border: 2px solid #f8743f;  
+}
+.arun{ 
+    background-color: #f8f6f3;
+    display: flex;
+    justify-content: center; 
+    padding: 30px;
+}
+.arun img{ 
+    width: 80%;
+
+}
+
+footer{   
+    
+    padding: 20px;
+    background-color: #323231; 
+}
+.pio{ 
+    color:#f8f6f3; 
+    
+}
+
+.shippu{ 
+    display: flex;  
+    justify-content: space-evenly; 
+    
+}
+.ship4{ 
+    flex: 20%;
+}
+.ship4 ul{ 
+    list-style: none; 
+  
+}   
+
+.ship4 ul li{ 
+    margin-right:10px; 
+}
+.ship4 ul li a,.ship4 ul li{ 
+    color: #f8f6f3;  
+    font-size: 85%;
+    text-decoration: none; 
+    text-transform: capitalize;
+} 
+.ship4 ul li a,.ship4 ul li :hover{ 
+    transition: 2s;
+cursor: pointer;
+} 
+.logo img{ 
+    width: 120px;
+}
+.mallu{ 
+    height: 1px;
+margin: 0px 12px;
+    background-color: #f8f6f3;
+}  
+.kannu{  
+    justify-content:space-between;
+    display: flex; 
+    align-items: center;
+}  
+
+.imf img{ 
+    height: 60px;
+}
+.right
+{ 
+    text-transform: capitalize;
+    color: #f8f6f3;
+}
+
+.log{ 
+    font-size: 40px;
+} 
+.log:hover{
+    transition: 2s; 
+    cursor: pointer;
+}
+
+.cot{ 
+    position: absolute;
+    top: 36%; 
+    left:77%; 
+    z-index: 102; 
+    display: none;
+} 
+.cot iconify-icon{ 
+    font-size:30px ; 
+
+} 
+
+.cont{     
+   
+    z-index: 100;
+    display: none;
+    border-radius: 8px;
+    position: absolute;
+    top: 36%;
+    left: 40%;
+    width: 40%;
+    height:auto;
+    background-color:#f8f6f3;
+
+} 
+.p33{  height: 40px;
+    padding: 6px; 
+    font-size: 20px;
+    background-color: #f8f6f3;
+    color:#323231;
+    border: 2px solid #f8743f;  
+    border-radius: 4px; 
+    padding-bottom:4px ;
+
+}    
+.p34:hover{  
+    transition: 2s;
+    background-color: #323231;
+    color: #f8f6f3;
+    border: 2px solid #f8743f;
+}
+.p33:hover{  
+    transition: 2s;
+    background-color: #323231;
+    color: #f8f6f3;
+}
+.cont p{ 
+    text-align: center; 
+    color: #f8743f; 
+    font-size: 20px;
+}   
+.cont img,.cont button{ 
+    margin-left: 43%;
+}
+
+form{  
+    padding-left:20%;
+    /* display: flex; */
+    justify-content: center;
+}
+form input{ 
+    width: 80%;
+    height: 40px;
+}
+.cont img{ 
+    height: 70px;
+}
+
+.errup1{ 
+color: black;
+}
+.errup1:hover{ 
+    transition: 2s;
+    color:#f8743f;
+}
+.errup{ 
+    color: #f8743f;
+} 
+.errup:hover{ 
+    color: #f8743f;
+}
+
+.sky{ 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+.sky img{ 
+    width: 45%;
+    height: 240px;
+}
+.per{  
+    background-color: lightgoldenrodyellow;
+    padding: 25px;
+}
+
+.co img{ 
+    width: 100%;
+}
+
+
+
+
+
+
+ 
+.jab{  
+    
+    width: 100%;
+    background-color: white; 
+    
+    padding: 10px 0px; 
+    
+}
+
+.jab1 ul{  
+    font-size: 20px;
+    display:  flex; 
+    justify-content: space-evenly;
+    color:black
+ 
+}
+.jab1 ul li a{ 
+    text-decoration: none;
+}  
+.jab1 ul li a{  
+    font-family:monospace;
+    /* color: black; */
+}
+.jab1 ul li :hover{ 
+    transition: 2s;
+opacity: 1; 
+cursor: pointer;
+}
+.babbu img{ 
+    height: 37px;
+}
+.babbu{ 
+    display: flex;
+}
+
+.errup1{ 
+    color: #323231;
+}
+.errup{ 
+    color: #f8743f;
+}
+
+
+
+
+.ghi{ 
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+}
+.mni{ 
+    background-color:#f8f6f3;
+    color:#f8743f;  
+    height: 40px;
+    border-radius: 8px;
+    width: 60px;
+    border: 2px solid #f8743f; 
+    font-weight: bold;
+} 
+.mni:hover{ 
+    cursor: pointer; 
+    color: #f8f6f3;
+    background-color: #f8743f;
+}
+
+.shimp{ 
+    display: flex; 
+    justify-content: space-evenly; 
+    background-color:#f8f6f3; 
+    
+}
+
+/* background-color: #323231;
+color: #f8f6f3;
+border: 2px solid #f8743f */
+
+.shimp1{  
+   
+    box-shadow: 5px 6px  lightgray;
+    margin-top: 20px; 
+    margin-bottom:10px ; 
+    border-radius: 4px;
+    border: 1px solid black; 
+    max-width: 25%;
+} 
+.shimp1 img{  
+    width: 100%;
+    /* padding-left: 20px; */
+}
+.shimp1 p{ 
+    text-align: center; 
+color:#323231 ;
+text-transform: uppercase; 
+font-weight: bold;  
+
+}
+ 
+ .ghi p{  
+    font-weight: bold;
+    color:#f8743f;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:950px){ 
+    .ship4 ul li a,.ship4 ul li{ 
+        font-size: 6px;
+    } 
+    
+} 
+@media (max-width:840px){ 
+    .ship4 ul li a,.ship4 ul li{ 
+        font-size: 7px;
+    } 
+    .mal{ 
+        padding: 30px;
+    } 
+    .cont{ 
+        width: 40%; 
+    } 
+    form input{ 
+
+        height: 35px;
+    }
+    .cont img{ 
+        height: 40px;
+    } 
+    .cont p{ 
+        font-size: 13px
+    }
+    .p33{ 
+        height: 30px;
+        font-size:12px ;
+    } 
+    .sky img{ 
+        width: 45%;
+        height: 200px;
+    } 
+
+   
+} 
+
+@media (max-width:590px){ 
+     .ship4 ul li a,.ship4 ul li{ 
+        font-size: 15px; 
+
+    }   
+    .shippu{  
+        padding-left: 40px;
+        display: block;
+    }
+    .logo{ 
+        padding-left: 100px;
+    }
+  
+    .mal{ 
+        padding: 20px;
+    } 
+    .ship1{ 
+        font-size: 14px;
+    }
+    .ship1 ul li img{ 
+        height: 40px;
+    } 
+    .ship1 ul li input{
+        width: 100%;
+        font-size: 8px;
+    } 
+    #p34{ 
+        font-size: 8px;
+       width: 40px;
+    }
+    .bab1 ul{ 
+        font-size: 9px;
+    }
+ 
+    .babbu img {
+        height: 17px;
+      }
+    .babbu h1{ 
+        font-size: 16px;
+    } 
+    .ship{ 
+        height: 50px; 
+        font-size: 15px;
+    } 
+    .logo img{
+        width: 80px;
+    } 
+    .kan{ padding: 20px; 
+    } 
+    
+    .right p{ 
+        font-size: 10px;
+    } 
+    .log{ 
+        font-size: 30px;
+    } 
+    .cont{ 
+        width: 60%; 
+    }  
+.cot{ 
+    left: 77%;  
+    top: 20%;
+    
+} 
+.cont{  
+    left: 25%;
+    top: 20%;
+}
+.cont img,.cont button{ 
+    margin-left:37% ;
+} 
+.jab1 ul{ 
+    font-size: 9px;
+}
+
+.sky img{ 
+    width: 47%;
+    height: 120px;
+}
+.per{ 
+    padding: 15px;
+}
+.shimp{ 
+    padding-left: 65px;
+    flex-direction: column; 
+
+}  
+
+.shimp1{ 
+    
+    max-width: 80%; 
+    
+    }
+
+}  
+
